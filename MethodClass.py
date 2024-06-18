@@ -11,7 +11,7 @@ class MethodClass:
 
     # Set google API key
     def set_key():
-        genai.configure(api_key = os.environ['GOOGLE_API_KEY'])## st.secrets.GOOGLE_API_KEY)
+        genai.configure(api_key = st.secrets.GOOGLE_API_KEY)
 
     # Create model
     def create_model():
